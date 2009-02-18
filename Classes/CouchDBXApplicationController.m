@@ -104,7 +104,7 @@
 	[launchPath appendString:@"/CouchDb"];
 	[task setCurrentDirectoryPath:launchPath];
 	
-	[launchPath appendString:@"/startCouchDb.sh"];
+	[launchPath appendString:@"/utils/run"];
 	[task setLaunchPath:launchPath];
 	[task setStandardInput:in];
 	[task setStandardOutput:out];
